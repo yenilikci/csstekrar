@@ -45,7 +45,7 @@ hatırlatma amaçlı
 - border-style: dashed,dotted,double,groove,hidden,inherit,inset,none,outset,ridge,solid
 - border-color: color name,hex code,decimal code
 - border-radius: 50%;
-- border-top|right|bottom|left-width|style|color|radius
+- border-top|right|bottom|left-width|style|color|radius:
 
 ## Box Sizing
 - box-sizing : border-box (width height'a padding ve border dahil margin dahil değil)
@@ -77,3 +77,8 @@ En popüler ikon kütüphaneleri;
 - column-count: sayı; (metni kolonlara böler)
 - column-rule: 1px solid black; (kolon arasına çizgi eklenebilir)
 - line-height: (satırlar arası yükseklik)
+
+## List
+- list-style-image: none,url,inherit,initial;
+- list-style-position: inside,outside,inherit,initial;
+- list-style-type: dics,circle,decimal,lower-alpha,upper-alpha,square,none;
