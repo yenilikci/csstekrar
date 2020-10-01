@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Margin</title>
+    <style>
+        
+        /*
+        ~inline elemanlara margin sadece sağ ve soldan etki eder üstten ve alttan etki etmez (meselan yanyana bulunan inline elementler için yukarıdan aşağıdan margin vermek istiyorsak display:inline-block; özelliğini kullanabiliriz)
+        ~margin: 100px 200px; -> üstten ve alttan 100px sağdan ve soldan 200px margin ver demek
+        ~margin auto:
+        sayfanın ortasına gelmesini sağlar
+        */
+        
+        
+        body {
+            margin: 0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        #first {
+            background: red;
+            margin-top: 50px;
+        }
+
+        #second {
+            background: blue;
+            margin-top: 100px;
+            margin: auto;
+        }
+
+        #third {
+            background: green;
+            margin-top: 150px;
+        }
+
+        span {
+            background: red;
+            margin: 50px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="box" id="first">box 1</div>
+    <div class="box" id="second">box 2</div>
+    <div class="box" id="third">box 3</div>
+
+
+    <span>text 1</span>
+    <span>text 2</span>
+    <span>text 3</span>
+
+</body>
+
+</html>
