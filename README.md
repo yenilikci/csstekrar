@@ -58,3 +58,10 @@ hatırlatma amaçlı
 - font-weight: normal,bold,bolder,lighter,number,initial,inherit;
 - font-style: normal,italic,oblique,initial,inherit;
 - font-variant: normal,small-caps,initial,inherit;
+
+## Icons
+En popüler ikon kütüphaneleri;
+- Font Awesome
+- icons8
+- Flaticon
+- Ionicons
