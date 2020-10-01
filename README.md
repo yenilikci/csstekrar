@@ -10,3 +10,20 @@ hatırlatma amaçlı
 ------------
 Kavramlar :
 **overflow: auto;** , **clear : both;** , **content: "";**
+
+## Display
+- **none**
+- **block**
+- **inline-block**
+- **inline**
+- flex
+- grid
+- table
+
+## Positioning
+- static
+- absolute
+- relative
+- fixed
+- sticky
+- inherit
