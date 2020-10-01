@@ -7,10 +7,6 @@ hatırlatma amaçlı
 - none
 - right
 
-------------
-Kavramlar :
-**overflow: auto;** , **clear : both;** , **content: "";**
-
 ## Display
 - **none**
 - **block**
@@ -49,8 +45,16 @@ Kavramlar :
 - border-style: dashed,dotted,double,groove,hidden,inherit,inset,none,outset,ridge,solid
 - border-color: color name,hex code,decimal code
 - border-radius: 50%;
-- border-top|right|bottom|left-width|style|color|radius:
+- border-top|right|bottom|left-width|style|color|radius
 
 ## Box Sizing
 - box-sizing : border-box (width height'a padding ve border dahil margin dahil değil)
 - box-sizing: content-box (width height'a padding ve border dahil değil margin zaten değil)
+
+# Fonts & Icons
+## Fonts
+- font-size: px, %(mevcut sayfa px'inin yüzde katı %200 -> 2 katı), em(mevcut sayfa px'inin katları 0.5em -> yarısı), rem(1 rem = 16px)
+- font-family: tarayıcı destekliyorsa ilk font kulanılır, tarayıcı desteklemiyorsa deneyeceği ikinci font, ikinci fontta olmazsa varsayılan seçilecek üçüncü font;
+- font-weight: normal,bold,bolder,lighter,number,initial,inherit;
+- font-style: normal,italic,oblique,initial,inherit;
+- font-variant: normal,small-caps,initial,inherit;
