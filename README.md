@@ -65,3 +65,15 @@ En popüler ikon kütüphaneleri;
 - icons8
 - Flaticon
 - Ionicons
+
+## Text
+- text-decoration: inherit,line-through,none,overline,underline;
+- text-indent: (paragraf başı boşluğu) büyüklük değeri alır;
+- text-transform: none,capitalize(baş harfler büyük),uppercase(tüm harfler büyük),lowercase(tüm harfler küçük),initial,inherit;
+- text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
+- text-align: center,left,right,justify; (inline etiketlere etki etmez)
+- word-spacing: (kelimeler arası boşluk)
+- letter-spacing: (harfler arası boşluk)
+- column-count: sayı; (metni kolonlara böler)
+- column-rule: 1px solid black; (kolon arasına çizgi eklenebilir)
+- line-height: (satırlar arası yükseklik)
