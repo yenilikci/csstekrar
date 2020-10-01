@@ -51,3 +51,6 @@ Kavramlar :
 - border-radius: 50%;
 - border-top|right|bottom|left-width|style|color|radius:
 
+## Box Sizing
+- box-sizing : border-box (width height'a padding ve border dahil margin dahil değil)
+- box-sizing: content-box (width height'a padding ve border dahil değil margin zaten değil)
