@@ -19,3 +19,11 @@ Kavramlar :
 - flex
 - grid
 - table
+
+## Positioning
+- static
+- absolute
+- relative
+- fixed
+- sticky
+- inherit
