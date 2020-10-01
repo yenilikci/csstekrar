@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Floating Divs</title>
+
+    <style>
+        
+        #container
+        {
+            background:gray;    
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+        }
+
+        #first {
+            background: red;
+            float: left;
+        }
+
+        #second {
+            background: blue;
+            float: left;
+        }
+
+        #third {
+            background: green;
+            float: left;
+        }
+
+        .clear
+        {
+            overflow: auto; /*arkadaki div görünür hale geldi*/
+        }
+        
+        /*
+        3.alternatif:
+        
+        clear:after
+        {
+            content: "";
+            display:block;
+            clear:both;
+        }
+        
+        */
+        
+        p:after
+        {
+            content: "- her p den sonra bu yazı gelir";
+        }
+        
+        p:before
+        {
+            content: "her p den önce bu gelir -"
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="container" class="clear">
+        <div class="box" id="first"></div>
+        <div class="box" id="second"></div>
+        <div class="box" id="third"></div>
+        
+        <!--2.alternatif : container classına clear class'ı yerine şunu da yapabiliriz-->
+        <div style="clear: both;"></div>
+    </div>
+    
+    <p>Lorem ipsum dolor.</p>
+
+</body>
+
+</html>
