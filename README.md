@@ -27,3 +27,11 @@ Kavramlar :
 - fixed
 - sticky
 - inherit
+
+# Box Model
+## Margin
+- margin
+- margin-top
+- margin-right
+- margin-bottom
+- margin-left
