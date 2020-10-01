@@ -35,3 +35,10 @@ Kavramlar :
 - margin-right
 - margin-bottom
 - margin-left
+
+## Padding
+- padding
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
