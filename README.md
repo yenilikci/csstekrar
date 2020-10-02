@@ -1,7 +1,7 @@
 # csstekrar
 hatırlatma amaçlı
 # Konumlandırma
-## float
+## Float
 - inherit
 - left
 - none
@@ -83,6 +83,7 @@ En popüler ikon kütüphaneleri;
 - list-style-position: inside,outside,inherit,initial;
 - list-style-type: dics,circle,decimal,lower-alpha,upper-alpha,square,none;
 
+## How to Center a Div 
 Elementleri ortalamanın bir yolu (**Transform ve Translate ile**);
 
 İlk önce **ebeveyn** element'in **positionunu relative** yap. Sonra **çocuk** elementin **position** özelliğini **absolute** yap **yukarıdan** ve **soldan** **50%** ver. **transform** özelliğini **translate(-50%, -50%)** yap.
