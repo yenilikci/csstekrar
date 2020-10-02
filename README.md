@@ -126,3 +126,9 @@ Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** 
   align-items: center;
 }
 ```
+## Uygulamalar
+- [Box Shadow](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/boxshadow.html "Box Shadow")
+> box-shadow: yatay,dikey,blur,yayılım;<br>
+> box-shadow: 10px 20px;  yatay 10px dikey 20px<br>
+> box-shadow: 10px 20px 10px;** yatay 10px dikey 10px blur 10px<br>
+> box-shadow: 10px 10px 10px 2px; yatay 10px dikey 10px blur 10px yayılım 2px
