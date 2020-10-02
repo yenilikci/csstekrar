@@ -82,3 +82,47 @@ En popüler ikon kütüphaneleri;
 - list-style-image: none,url,inherit,initial;
 - list-style-position: inside,outside,inherit,initial;
 - list-style-type: dics,circle,decimal,lower-alpha,upper-alpha,square,none;
+
+Elementleri ortalamanın bir yolu (**Transform ve Translate ile**);
+
+İlk önce **ebeveyn** element'in **positionunu relative** yap. Sonra **çocuk** elementin **position** özelliğini **absolute** yap **yukarıdan** ve **soldan** **50%** ver. **transform** özelliğini **translate(-50%, -50%)** yap.
+
+```html
+<div class="container">
+  <div class="child"></div>
+</div>
+```
+
+```css
+.container {
+  ...
+  position: relative;
+}
+
+.child {
+  ... 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
+Elementleri ortalamanan diğer bir yolu (**Flex ile**);
+
+Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** ve **align-items** özelliklerini ise **center** yapıyoruz.
+
+```html
+<div class="container">
+  <div class="child"></div>
+</div>
+```
+
+```css
+.container {
+  ...
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
