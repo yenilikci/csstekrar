@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #nav {
+            background-color: #333;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        #nav ul {
+            list-style: none;
+            overflow: hidden;
+        }
+
+        #nav li {
+            float: left;
+        }
+
+        #nav li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s linear;
+        }
+
+        #nav li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #dd4453;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="nav">
+        <div class="container">
+            <ul>
+                <li><a href=""><i class="fa fa-home"></i></a></li>
+                <li><a href="">Article</a></li>
+                <li><a href="">Contact</a></li>
+                <li style="float:right;"><a href="" class="active">Account</a></li>
+            </ul>
+        </div>
+    </div>
+</body></html>
