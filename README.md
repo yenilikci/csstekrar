@@ -41,9 +41,9 @@ hatırlatma amaçlı
 
 ## Border
 - border: kalınlıkpx tipi rengi
-- border-width: inherit,medium,thick,thin,px
-- border-style: dashed,dotted,double,groove,hidden,inherit,inset,none,outset,ridge,solid
-- border-color: color name,hex code,decimal code
+- border-width: inherit,medium,thick,thin,px;
+- border-style: dashed|dotted|double|groove|hidden|inherit|inset|none|outset|ridge|solid;
+- border-color: color name,hex code,decimal code;
 - border-radius: 50%;
 - border-top|right|bottom|left-width|style|color|radius:
 
@@ -55,9 +55,9 @@ hatırlatma amaçlı
 ## Fonts
 - font-size: px, %(mevcut sayfa px'inin yüzde katı %200 -> 2 katı), em(mevcut sayfa px'inin katları 0.5em -> yarısı), rem(1 rem = 16px)
 - font-family: tarayıcı destekliyorsa ilk font kulanılır, tarayıcı desteklemiyorsa deneyeceği ikinci font, ikinci fontta olmazsa varsayılan seçilecek üçüncü font;
-- font-weight: normal,bold,bolder,lighter,number,initial,inherit;
-- font-style: normal,italic,oblique,initial,inherit;
-- font-variant: normal,small-caps,initial,inherit;
+- font-weight: normal|bold|bolder|lighter|number|initial|inherit;
+- font-style: normal|italic|oblique|initial|inherit;
+- font-variant: normal|small-caps|initial|inherit;
 
 ## Icons
 En popüler ikon kütüphaneleri;
@@ -67,11 +67,11 @@ En popüler ikon kütüphaneleri;
 - Ionicons
 
 ## Text
-- text-decoration: inherit,line-through,none,overline,underline;
+- text-decoration: inherit|line-through|none|overline|underline;
 - text-indent: (paragraf başı boşluğu) büyüklük değeri alır;
 - text-transform: none,capitalize(baş harfler büyük),uppercase(tüm harfler büyük),lowercase(tüm harfler küçük),initial,inherit;
 - text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
-- text-align: center,left,right,justify; (inline etiketlere etki etmez)
+- text-align: center|left|right|justify; (inline etiketlere etki etmez)
 - word-spacing: (kelimeler arası boşluk)
 - letter-spacing: (harfler arası boşluk)
 - column-count: sayı; (metni kolonlara böler)
@@ -79,9 +79,9 @@ En popüler ikon kütüphaneleri;
 - line-height: (satırlar arası yükseklik)
 
 ## List
-- list-style-image: none,url,inherit,initial;
-- list-style-position: inside,outside,inherit,initial;
-- list-style-type: dics,circle,decimal,lower-alpha,upper-alpha,square,none;
+- list-style-image: none|url|inherit|initial;
+- list-style-position: inside|outside|inherit|initial;
+- list-style-type: dics|circle|decimal|lower-alpha|upper-alpha|square|none;
 
 ## How to Center a Div 
 Elementleri ortalamanın bir yolu (**Transform ve Translate ile**);
@@ -133,3 +133,12 @@ Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** 
 > box-shadow: 10px 20px;  yatay 10px dikey 20px<br>
 > box-shadow: 10px 20px 10px;** yatay 10px dikey 10px blur 10px<br>
 > box-shadow: 10px 10px 10px 2px; yatay 10px dikey 10px blur 10px yayılım 2px
+
+- ## Transition
+  [Transition](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/transitions.html "Transition")
+- transition: property duration timing-function delay;
+- transition: width 2s (etkin olmasını istediğim özellik kaç saniyede) , height 5s, ... ;
+- transition-property: color (sadece geçiş efektinin uygulanmasını istediğim özellikler - **opsiyonel kullanım all**);
+- transition-duration: 3s (geçiş efektinin ne kadar süreceği);
+- transition-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int|start|end),cubic-bezier(n,n,n,n)|initial|inherit (estetik geçişler sağlanır);
+- transition-delay: 1s (geçiş efektinin ne kadar zaman sonra başlayacağı);
