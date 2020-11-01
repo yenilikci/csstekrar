@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header
+        {
+            height: 95vh; /*viewport değeri*/
+            background-image: 
+            /*ilk özelliğini linear-gradient özelliği seçip mavi bir geçiş yapalım*/
+            linear-gradient(rgb(153, 153, 255,0.7),rgb(0, 0, 204,0.7)),
+            url('https://i.pinimg.com/originals/b4/bf/af/b4bfafa2dccc4cf3fe24f774b3f13b12.jpg');
+            background-size: cover;
+            background-position: top; /*crop edilirken sabir kalacak*/
+            clip-path: polygon(0 0,100% 0,100% 100%,0 85%); /*kırpma işlemi yapalım*/
+            position: relative;
+            
+        }
+        .heading
+        {
+            text-transform: uppercase;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%,-50%); /*sağdan sola hizalama,aşağıdan yukarıya hizalama, nesneyi işin içine katıyor*/
+            color: white;
+        }
+        .heading-main
+        {
+            font-size: 50px;
+            display: block;
+            letter-spacing: 5px;
+        }
+        .heading-sub
+        {
+            font-size: 30px;
+            display: block;
+            letter-spacing: 2px;
+        }
+        .logo-box
+        {
+            position: absolute; /*konumlandırmayı relative nesneye yani header'a göre yapar*/
+            top:30px;
+            left: 30px;
+        }
+        .logo
+        {
+            height: 75px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <img class="logo" src="https://www.freepnglogos.com/uploads/arsenal-logo-png/arsenal-logo-0.png" alt="">
+        </div>
+        <h1 class="heading">
+            <span class="heading-main">
+                Main Heading Title
+            </span>
+            <span class="heading-sub">
+                Sub Title
+            </span>
+        </h1>
+    </header>
+</body>
+</html>
