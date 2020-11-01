@@ -128,6 +128,7 @@ Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** 
 }
 ```
 ## Uygulamalar
+- ## Box Shadow
 - [Box Shadow](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/boxshadow.html "Box Shadow")
 > box-shadow: yatay,dikey,blur,yayılım;<br>
 > box-shadow: 10px 20px;  yatay 10px dikey 20px<br>
@@ -142,3 +143,11 @@ Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** 
 - transition-duration: 3s (geçiş efektinin ne kadar süreceği);
 - transition-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int|start|end),cubic-bezier(n,n,n,n)|initial|inherit (estetik geçişler sağlanır);
 - transition-delay: 1s (geçiş efektinin ne kadar zaman sonra başlayacağı);
+
+
+- ## [Navbar](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/navbar.html "Navbar")
+![navbar](https://user-images.githubusercontent.com/57464067/97799395-11146a00-1c3f-11eb-8c00-4736575e00a0.png)
+- ## [Cards](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/cards.html "Cards")
+![card](https://user-images.githubusercontent.com/57464067/97799396-12de2d80-1c3f-11eb-89a5-455288fd2c35.png)
+- ## [Background Image](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/bgimage.html "Background Image")
+![background-image](https://user-images.githubusercontent.com/57464067/97799394-0e197980-1c3f-11eb-8a9b-c93f1bb61d95.png)
