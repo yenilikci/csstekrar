@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        body
+        {
+            margin: 100px;
+
+        }
+        .border
+        {
+            border: 1px solid    rgb(0, 0, 0,.125);
+            padding: 10px;
+            margin-right: 50px;
+        }
+        .tooltip
+        {
+            position: relative;
+        }
+        .tooltip .text /*başlangıçta tooltip'in text'ini gizledim*/
+        {
+            display: none;
+            width: 120px;
+            background: black;
+            color: white;
+            text-align: center;
+            border-radius: 5px; /*kenarları yuvarlatalım*/
+            padding: 5px 0; /*üssten alttan 5px padding, sağdan soldan yok*/
+            position: absolute; /*bir üstteki relative nesneye göre*/
+            z-index: 1; /*derinlik*/
+        }
+        .top
+        {
+            bottom: 120%;
+            left: 50%;
+            margin-left: -60px; /*120/2 kadar daha sola taşımalı*/
+        }
+        .top::after
+        {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            right: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black transparent transparent transparent;
+        }
+        .bottom
+        {
+            top: 120%;
+            left: 50%;
+            margin-left: -60px; /*120/2 kadar daha sola taşımalı*/
+        }
+        .bottom::after
+        {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            right: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent black transparent;
+        }
+        .right
+        {
+            left: 105%;
+            top: 3px;
+        }
+        .right::after
+        {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            top: 50%;
+            right: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent black transparent transparent;
+        }
+        .left
+        {
+            right: 105%;
+            top: 3px;
+        }
+        .left::after
+        {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            top: 50%;
+            left: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+        }
+        .tooltip:hover .text /*tooltip'e hover oalayı gerçekleştiği zaman*/
+        {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="tooltip">Possimus <span class="text bottom"> Possimus illum ab </span></span> dolores a, dolorum, deleniti ipsam fugiat corrupti doloremque quam laudantium adipisci accusamus? Provident, incidunt mollitia dolores praesentium enim voluptas!</p>
+    <hr> <br>
+    <span class="tooltip border">
+        Tooltip Top
+        <span class="text top">Tooltip Text</span>
+    </span>
+    <span class="tooltip border">
+        Tooltip Right
+        <span class="text right">Tooltip Text</span>
+    </span>
+    <span class="tooltip border">
+        Tooltip Bottom
+        <span class="text bottom">Tooltip Text</span>
+    </span>
+    <span class="tooltip border">
+        Tooltip Left
+        <span class="text left">Tooltip Text</span>
+    </span>
+</body>
+</html>
