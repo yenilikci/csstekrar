@@ -151,3 +151,8 @@ Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** 
 ![card](https://user-images.githubusercontent.com/57464067/97799396-12de2d80-1c3f-11eb-89a5-455288fd2c35.png)
 - ## [Background Image](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/bgimage.html "Background Image")
 ![background-image](https://user-images.githubusercontent.com/57464067/97799394-0e197980-1c3f-11eb-8a9b-c93f1bb61d95.png)
+- ## [Tooltip](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/tooltip.html "Tooltip")
+![tooltip](https://user-images.githubusercontent.com/57464067/97815722-3639c480-1ca1-11eb-8793-263ca91c1246.png)
+- ## [Menu](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/acilirmenu.html "Menu")
+![açılırmenü](https://user-images.githubusercontent.com/57464067/97815723-38038800-1ca1-11eb-9a91-9387357f6305.png)
+
