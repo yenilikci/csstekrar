@@ -155,4 +155,13 @@ Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** 
 ![tooltip](https://user-images.githubusercontent.com/57464067/97815722-3639c480-1ca1-11eb-8793-263ca91c1246.png)
 - ## [Menu](https://github.com/yenilikci/csstekrar/blob/master/Uygulamalar/acilirmenu.html "Menu")
 ![açılırmenü](https://user-images.githubusercontent.com/57464067/97815723-38038800-1ca1-11eb-9a91-9387357f6305.png)
+- ## [Sosyal Medya Butonları](https://github.com/yenilikci/csstekrar/tree/master/Uygulamalar/Sosyal%20Medya%20Butonlar%C4%B1 "Sosyal Medya Butonları")
+**😇 transform: rotate(-30deg) skew(25deg) translate(20px,-15px);** <br>
+**😇 :nth-child(n){} prop, n = odd -> tek, n = even -> çift** <br>
+**😇 :hover{} prop**
 
+![sosyal medya buton](https://user-images.githubusercontent.com/57464067/97886657-ebb85680-1d39-11eb-8d7c-9b8d7a256b3e.png)
+- ## [Parallax Dizayn](https://github.com/yenilikci/csstekrar/tree/master/Uygulamalar/Parallax%20Dizayn "Parallax Dizayn")
+**😇 background-attachment: fixed;**
+
+![parallax](https://user-images.githubusercontent.com/57464067/97886661-ec50ed00-1d39-11eb-8a62-607c0ff467ae.png)
