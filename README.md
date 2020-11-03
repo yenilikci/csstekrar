@@ -234,3 +234,25 @@ Medya sorgu ifadelerini birleştirerekte tanımlama yapabiliriz
 }
 ```
 örneğin yukarıdaki tanım 800px ve 1200px arasındaki ekranlar için yapılmıştır.
+
+## Flexbox
+**display: flex;**
+
+![x](https://user-images.githubusercontent.com/57464067/98022338-89815380-1e16-11eb-86bd-c6d7a63419e5.png)
+
+**Container Seviyesi**
+varsayılan direction row (react native'de col)
+
+1) flex-direction
+2) flex-wrap
+3) justify-content
+4) align-items
+5) align-content
+
+**İtem Seviyesi**
+
+1) align-self
+2) order
+3) flex-grow: 0
+4) flex-shrink: 1
+5) flex-basis: auto
