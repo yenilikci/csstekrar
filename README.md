@@ -172,3 +172,65 @@ Ebeveyn elementin **display** özelliğini flex yapıyoruz. **justify-content** 
 **😇 background-attachment: fixed;**
 
 ![parallax](https://user-images.githubusercontent.com/57464067/97886661-ec50ed00-1d39-11eb-8a62-607c0ff467ae.png)
+
+## Responsive Web Design
+### Medya Sorguları
+Genelde kullanılan medya özellikleri:
+width, height, max-width, min-width, max-height ve min-height
+
+Mantıksal operatörler kullanılabilir:
+not,and,only
+
+```html
+@media screen and (ozellik:deger) {
+
+}
+```
+**Örneğin:** Sadece 750px bir genişlikte görüntülenecek tanım
+```html
+@media screen and (width: 750px) {
+
+}
+```
+
+**Örneğin:** 750px ve altındaki bir genişlikte görüntülenecek tanım
+```html
+@media screen and (max-width: 750px) {
+  h1
+  {
+    font-size: 14px;
+  }
+}
+```
+bunun hemen ardına aynı yapıda ama max-width:400px olacak bir tanım daha yaparsak yukarıdaki tanım 750px ve 400px arasında en son yaptığımız tanım ise 400px ve aşağıdaki genişlikte görüntülenir.
+```html
+@media screen and (max-width: 400px) {
+  h1
+  {
+    font-size: 12px;
+  }
+}
+```
+yani 750px ve 400px arasındaki genişlike h1 etiketinin font büyüklüğü 14px iken 400px ve altındaki genişliklerde 12px'dir.
+
+**Örneğin:** 600px ve üstündeki genişlikte görüntülenecek olan tanım
+```html
+@media screen and (min-width: 600px) {
+  h1
+  {
+    font-size: 14px;
+  }
+}
+```
+
+Medya sorgu ifadelerini birleştirerekte tanımlama yapabiliriz
+
+```html
+@media screen and (max-width: 1200px) and (min-width: 800px)  {
+  h1
+  {
+    font-size: 20px;
+  }
+}
+```
+örneğin yukarıdaki tanım 800px ve 1200px arasındaki ekranlar için yapılmıştır.
